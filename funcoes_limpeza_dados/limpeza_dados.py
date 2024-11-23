@@ -81,15 +81,14 @@ def calcula_porcentagem_valores_ausentes(dados):
     Retorno:
         None: Esta função imprime a porcentagem de valores ausentes e não retorna um valor.
     """
-
     # Calcula o total de células do dataset
-    total_celulas = np.prod(dados.shape)
+    total_de_celulas = np.prod(dados.shape)
     # Conta o número de valores ausentes por coluna
-    qntd_ausente_coluna = dados.isnull().sum()
+    quantidade_ausentes_por_coluna = dados.isnull().sum()
     # Calcula o total de valores ausentes em todo o conjunto de dados
-    total_ausentes = qntd_ausente_coluna.sum()
+    total_ausentes = quantidade_ausentes_por_coluna.sum()
     # Calcula a porcentagem de valores ausentes em relação ao total de células
-    porcentagem_ausentes = (total_ausentes / total_celulas) / 100
+    porcentagem_ausentes = (total_ausentes / total_de_celulas) * 100
     # Exibe a porcentagem de valores ausentes no conjunto de dados
     print(f"O conjunto de dados tem {round(porcentagem_ausentes, 2)}% de valores ausentes.")
 
