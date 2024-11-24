@@ -14,7 +14,7 @@ Este dataset é público  e está disponível em Kaggle no link: https://www.kag
 
 ## Organização do Projeto
 
-O desenvolvimento do projeto está divido em sete partes, com o objetivo de simular as etapas de limpeza e tratamento de dados em um dia a dia profissional. 
+O desenvolvimento do projeto está divido em cinco partes, com o objetivo de simular as etapas de limpeza e tratamento de dados em um dia a dia profissional. 
 
 
 
