@@ -16,5 +16,11 @@ Este dataset é público  e está disponível em Kaggle no link: https://www.kag
 
 O desenvolvimento do projeto está divido em cinco partes, com o objetivo de simular as etapas de limpeza e tratamento de dados em um dia a dia profissional. 
 
+## Instalação dos pacotes
+
+Para conseguir rodar o projeto, instale as bibliotecas dependentes:
+```
+pip install -r requirements.txt
+```
 
 
